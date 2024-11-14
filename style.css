@@ -1,3 +1,22 @@
 .document{
     display: grid;
+    font-family: monospace;
+}
+
+image{
+}
+
+.header{
+}
+
+.beskrivning{
+}
+
+.ingredienser{
+}
+
+.instruktioner{
+}
+
+.sidfot{
 }
