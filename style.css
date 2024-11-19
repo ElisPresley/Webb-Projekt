@@ -1,12 +1,13 @@
 .document{
     display: grid;
+    grid-template-columns: 1fr 2fr;
     grid-gap: 5px;
     font-family: monospace;
 }
 
 img{
-    width: 350px;
-    height: 250px;
+    width: auto;
+    height: 150px;
     border: solid 1px;
     border-radius: 25px;
 }
@@ -16,7 +17,7 @@ img{
     grid-column: 2;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     border: solid 1px;
     border-radius: 25px;
 }
