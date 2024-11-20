@@ -10,8 +10,8 @@ body{
 }
 
 img{
-    width: auto;
-    height: 150px;
+    width: 100%;
+    height: 155pt;
     border: solid 1px;
     border-radius: 25px;
 }
@@ -31,7 +31,17 @@ img{
     grid-column: span 2;
     border: solid 1px;
     border-radius: 25px;
+    display: flex;
+    text-align: center;
     background-color: #ABFF00;
+}
+
+h2{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
 }
 
 .ingredienser{
