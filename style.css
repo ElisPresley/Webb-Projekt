@@ -1,7 +1,11 @@
+body{
+    background-color: #8ACE00;
+}
+
 .document{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap: 5px;
+    grid-gap: 1%;
     font-family: monospace;
 }
 
@@ -20,22 +24,26 @@ img{
     justify-content: left;
     border: solid 1px;
     border-radius: 25px;
+    background-color: #ABFF00;
 }
 
 .beskrivning{
     grid-column: span 2;
     border: solid 1px;
     border-radius: 25px;
+    background-color: #ABFF00;
 }
 
 .ingredienser{
     border: solid 1px;
     border-radius: 25px;
+    background-color: #ABFF00;
 }
 
 .instruktioner{
     border: solid 1px;
     border-radius: 25px;
+    background-color: #ABFF00;
 }
 
 .sidfot{
@@ -43,4 +51,5 @@ img{
     border: solid 1px;
     border-radius: 25px;
     text-align: center;
+    background-color: #ABFF00;
 }
